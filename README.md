@@ -4,7 +4,7 @@ For more information see the [ReadyTalk API Documentation](https://cc.readytalk.
 
 ## Setup Login Information
 
-To run the examples, first export these variables:
+To run the examples, first export your login information. Be sure to replace these numbers with the appropriate values.
 
     export TOLLFREE=8661234567
     export ACCESSCODE=1234567
