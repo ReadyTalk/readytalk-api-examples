@@ -1,7 +1,7 @@
 HOST="apidev-cc.readytalk.com"
 curl "https://$HOST/api/1.3/svc/rs/meetings.json" \
        --user "$TOLLFREE:$ACCESSCODE:$PASSCODE" \
-       -H 'Content-Type: application/x-www-form-urlencoded' \
+       --header "Content-Type: application/x-www-form-urlencoded" \
        --data "title=Test&\
 hostName=Chip%20Jackson&\
 fromEmail=chip.jackson%40readytalk.com&\
